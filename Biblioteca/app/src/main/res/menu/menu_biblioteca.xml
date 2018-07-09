@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_estanteria"
+        android:title="Ver Estantería"
+        android:checkable="true">
+    </item>
+
+    <item android:id="@+id/action_ordenar" android:title="Ordenar">
+        <menu>
+            <group android:id="@+id/grupo_ordenar" android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/item_fecha_agregado"
+                    android:title="Fecha agregado" />
+                <item android:id="@+id/item_titulo"
+                    android:title="Titulo" />
+                <item
+                    android:id="@+id/item_autor"
+                    android:title="Autor/a" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
